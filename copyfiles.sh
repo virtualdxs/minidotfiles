@@ -1,2 +1,2 @@
-cp -r ~/dotfiles/.* ~
+cp -r ~/minidotfiles/.* ~
 rm -rf ~/.git ~/copyfiles.sh
