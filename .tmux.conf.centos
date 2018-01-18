@@ -1,0 +1,12 @@
+bind-key Space next-window
+bind-key BSpace previous-window
+
+bind-key b last-window
+
+bind-key k confirm-before -p "kill-window #P? (y/n)" kill-window
+
+#bind-key -t copy-mode Space send-keys -X begin-selection
+#bind-key -t copy-mode Enter send-keys -X copy-selection-and-cancel
+#bind-key -t copy-mode / command-prompt -i -p "search down" "send -X search-forward-incremental \"%%%\""
+
+set-option -g default-shell /usr/bin/zsh
