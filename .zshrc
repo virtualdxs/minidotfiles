@@ -1,4 +1,4 @@
-export ZSH=$HOME/.zshconfig
+export ZSH=$ZDOTDIR/.zshconfig
 for file in $ZSH/*.zsh;do source $file;done
 
 export EDITOR="vim"
