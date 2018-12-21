@@ -1,1 +1,1 @@
-export ZDOTDIR=$HOME
+[[ -z "$ZDOTDIR" ]] && export ZDOTDIR="$HOME"
