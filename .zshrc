@@ -6,6 +6,7 @@ for file in $ZSH/*.zsh;do source $file;done
 
 export EDITOR="vim"
 export VISUAL="vim"
+alias vim="vim -u $MYVIMRC"
 
 setopt autopushd
 setopt pushd_ignore_dups
