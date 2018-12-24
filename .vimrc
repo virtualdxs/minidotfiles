@@ -5,6 +5,7 @@ set shiftwidth=2
 
 set autoindent
 set copyindent
+set nohlsearch
 
 syntax on
 
