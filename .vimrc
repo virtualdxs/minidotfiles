@@ -1,3 +1,5 @@
+set number
+set relativenumber
 set background=dark
 filetype plugin indent on
 set tabstop=2
@@ -15,4 +17,3 @@ syntax on
 
 nnoremap ; :
 vnoremap ; :
-command Vterm vert term
